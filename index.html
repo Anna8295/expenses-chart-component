@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <title>Expenses chart component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <div>
+    <div class="my-balance">
+      <div>
+        <p>My balance</p>
+        <h3> $921.48</h3>
+      </div>
+      <img src="./images/logo.svg" alt="logo">
+    </div>
+    <div class="card-chart">
+      <h3>Spending - Last 7 days</h3>
+      <div>
+        <canvas id="myChart"></canvas>
+      </div>
+      <hr>
+      <div class="summary">
+        <div>
+          <span>Total this month</span>
+          <h1> $478.33</h1>
+        </div>
+        <div class="difference">
+          <h5>+2.4%</h5>
+          <span>from last month</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="app.js"></script>
+</body>
+
+</html>
